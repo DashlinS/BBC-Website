@@ -350,7 +350,7 @@ input[type=text]{
 }
 
 .area1 img {
-  width: 92%; 
+  width: 94%; 
   height: 220px;
 }
 
@@ -362,8 +362,9 @@ input[type=text]{
 }
 
 .area2 img {
-  width: 92%;
+  width: 90%;
   height: 220px;
+  margin-left: 10px;
 }
 
 /* Third Block  */
@@ -372,7 +373,7 @@ input[type=text]{
   width: 33%;
 }
 .area3 img {
-  width: 92%;
+  width: 90%;
   height: 220px;
 }
 
