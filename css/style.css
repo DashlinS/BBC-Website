@@ -62,7 +62,7 @@ a img:hover{
 }
 
 /* LINES BEFORE HEADERS */
-.news::before {
+.title::before {
   content: " ";
   display: inline-block;
   margin-right: 0.2rem;
@@ -156,17 +156,19 @@ input[type=text]{
 
 /* WELCOME SECTION */
 .welcome {
-  padding: 30px 130px 18px 5px;
-  margin: 0 572px; 
+  padding: 23px 121px 2px 0px;
+  margin: 10px 570px;
 }
+/* Welcome to BBC.com */
 .welcome h2{
   font-size: 1.35rem;
   display: block;
   float: left;
   color: #444;
 }
+/* Date */
 .welcome p{
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: rgb(134, 133, 133);
   display: block;
   float: right;
@@ -331,19 +333,19 @@ input[type=text]{
   color: #fff;
 }
 
-/* News Area  */
-.news{
+/* title Area  */
+.title{
   font-size: 1.3rem;
   padding-top: 40px;
   padding-bottom: 10px;
   color: #555;
 }
-
+/* Second section */
 #secondary {
   max-width: 100%;
   height: 415px;
-
 }
+
 /* First Block  */
 .area1 {
   display: inline-block;
@@ -351,26 +353,26 @@ input[type=text]{
 }
 
 .area1 img {
-  width: 95%; 
+  width: 100%; 
 }
 
 /* Second Block  */
 .area2 {
   display: inline-block;
-  width: 31.5%;
+  width: 31%;
 }
 
 .area2 img {
-  width: 95%;
+  width: 100%;
 }
 
 /* Third Block  */
 .area3 {
   display: inline-block;
-  width: 31.5%;
+  width: 30.5%;
 }
 .area3 img {
-  width: 95%;
+  width: 100%;
 }
 
 .area1 h4, .area2 h4, .area3 h4{
@@ -397,10 +399,17 @@ input[type=text]{
 text-decoration: underline;
 }
 
+ .area1.pic1, .area2.pic2, .area4.pic4, .area5.pic5 {
+  padding-right: 10px;
+} 
+ .area4.pic4 {
+  padding-right: 10px;
+ }
+
+
 .tertiary-overlay {
 background-color: rgba(0, 0, 0, 0.027);
-width: 95% ;
+width: 100% ;
 position: relative;
 z-index: 1;
-display: inline-block;
-}
+} 
