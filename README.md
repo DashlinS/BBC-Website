@@ -9,7 +9,7 @@ Best way to learn is to jump in and try! The goal was, to the best of my current
 
 ### Html
 
-The Html portion, although seemingly simple, required proper attention. 
+The Html portion, although seemingly simple, required proper attention.
 As to not make any mistakes and issues later for the CSS portion, I was careful to be clean and accurate. 
 I wanted to make sure to group my sections, classes and ids to make sure there wasn't any confusion. 
 Worst part of it was, coming up with the class and id names! But as I got into the groove, it became a pattern. 
@@ -27,15 +27,14 @@ Floats were not as bad as I thought they would have been, but Flexbox or Grid wo
 
 ## Styling Effects
 
-## Navigation Bar
-
+### Navigation Bar
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" width="1000" height="32">
 
-## More Hover Effects
+### More Hover Effects
+
 
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/mainsection.gif" width="800">
 </p>
 
 # What I Learned
-
