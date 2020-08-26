@@ -1,11 +1,11 @@
 # BBC Website
-Best way to learn is to jump in and try! The goal was, to the best of my current ability, recreate the BBC website and learn as much as I can from the challenge! Will continue to update as I learn new tools and techniques.
+One of the best ways to learn is to just jump in and try! The goal was, to the best of my current ability, recreate the BBC website and learn as much as I can from the challenge! Will continue to update as I learn new tools and techniques.
 
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/bbcDemo1.png" width="800">
 
 ## How Its Made 
 
-**Languages used:** Html and CSS
+->**Languages used:** Html and CSS<-
 
 ### Html
 
@@ -13,7 +13,7 @@ The Html portion, although seemingly simple, required proper attention.
 As to not make any mistakes and issues later for the CSS portion, I was careful to be clean and accurate. 
 I wanted to make sure to group my sections, classes and ids to make sure there wasn't any confusion. 
 Worst part of it was, coming up with the class and id names! But as I got into the groove, it became a pattern. 
-I used sections instead of divs, except for a couple areas. 
+I used section instead of div, except for in a couple areas. 
 This helped me figure out the segments and their placements.
 
 
