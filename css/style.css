@@ -339,49 +339,45 @@ input[type=text]{
   color: #555;
 }
 
-.secondary {
+#secondary {
   max-width: 100%;
+  height: 415px;
+
 }
 /* First Block  */
 .area1 {
   display: inline-block;
-  width: 31%;
-  margin-right: -25px;
+  width: 29.5%;
 }
 
 .area1 img {
-  width: 94%; 
-  height: 220px;
+  width: 95%; 
 }
 
 /* Second Block  */
 .area2 {
   display: inline-block;
-  width: 33%;
-  margin-right: -25px;
+  width: 31.5%;
 }
 
 .area2 img {
-  width: 90%;
-  height: 220px;
-  margin-left: 10px;
+  width: 95%;
 }
 
 /* Third Block  */
 .area3 {
   display: inline-block;
-  width: 33%;
+  width: 31.5%;
 }
 .area3 img {
-  width: 90%;
-  height: 220px;
+  width: 95%;
 }
 
 .area1 h4, .area2 h4, .area3 h4{
   display: inline-block;
   padding-bottom: 4px;
   padding-top: 5px;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .area1 p, .area2 p, .area3 p {
@@ -399,4 +395,12 @@ input[type=text]{
 
 .area1 h5:hover, .area2 h5:hover, .area3 h5:hover {
 text-decoration: underline;
+}
+
+.tertiary-overlay {
+background-color: rgba(0, 0, 0, 0.027);
+width: 95% ;
+position: relative;
+z-index: 1;
+display: inline-block;
 }
