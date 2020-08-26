@@ -62,11 +62,20 @@ a img:hover{
 }
 
 /* LINES BEFORE HEADERS */
-.title::before {
+.news.title::before {
   content: " ";
   display: inline-block;
   margin-right: 0.2rem;
   border-left: 3px solid red;
+  height: .98rem;
+  padding: 0;
+  width: 0;
+}
+.sports.title::before {
+  content: " ";
+  display: inline-block;
+  margin-right: 0.2rem;
+  border-left: 3px solid yellow;
   height: .98rem;
   padding: 0;
   width: 0;
@@ -77,6 +86,15 @@ a img:hover{
   display: inline-block;
   margin-right: 0.38rem;
   border-left: 2px solid red;
+  height: 0.75rem;
+  padding: 0;
+  width: 0;
+}
+.area4 h5::before, .area5 h5::before, .area6 h5::before{
+  content: " ";
+  display: inline-block;
+  margin-right: 0.38rem;
+  border-left: 2px solid yellow;
   height: 0.75rem;
   padding: 0;
   width: 0;
@@ -334,7 +352,7 @@ input[type=text]{
 }
 
 /* title Area  */
-.title{
+.news.title, .sports.title{
   font-size: 1.3rem;
   padding-top: 40px;
   padding-bottom: 10px;
@@ -343,39 +361,86 @@ input[type=text]{
 /* Second section */
 #secondary {
   max-width: 100%;
-  height: 415px;
+  height: 400px;
 }
 
 /* First Block  */
-.area1 {
+.area1.pic1 {
   display: inline-block;
   width: 29.5%;
 }
 
-.area1 img {
+.area1.pic1 img {
   width: 100%; 
 }
 
-/* Second Block  */
-.area2 {
+.area2.pic2 {
   display: inline-block;
   width: 31%;
 }
 
-.area2 img {
+.area2.pic2 img {
   width: 100%;
 }
 
-/* Third Block  */
-.area3 {
+.area3.pic3 {
   display: inline-block;
   width: 30.5%;
 }
-.area3 img {
+.area3.pic3 img {
   width: 100%;
 }
 
+/* Second Block  */
+#tertiary {
+  max-width: 100%;
+  height: 445px; 
+}
+
+.area4.pic4 {
+  display: inline-block;
+  width: 29%;
+}
+
+.area4.pic4 img {
+  width: 100%; 
+}
+
+.area5.pic5 {
+  display: inline-block;
+  width: 29%;
+}
+
+.area5.pic5 img {
+  width: 100%;
+}
+
+.area6.pic6 {
+  display: inline-block;
+  width: 32.5%;
+}
+.area6.pic6 img {
+  width: 100%;
+}
+
+/* Padding */
+.area4.pic4, .area5.pic5 {
+  margin-right: 10px;
+}
+
+ .area1.pic1, .area2.pic2 {
+  padding-right: 10px;
+} 
+
+/* Combined */
 .area1 h4, .area2 h4, .area3 h4{
+  display: inline-block;
+  padding-bottom: 4px;
+  padding-top: 5px;
+  font-size: 19px;
+}
+
+.area4 h4, .area5 h4, .area6 h4{
   display: inline-block;
   padding-bottom: 4px;
   padding-top: 5px;
@@ -385,7 +450,11 @@ input[type=text]{
 .area1 p, .area2 p, .area3 p {
   font-size: 16px;
   color: #444;
+}
 
+.area4 p, .area5 p, .area6 p {
+  font-size: 16px;
+  color: #444;
 }
 
 .area1 h5, .area2 h5, .area3 h5 {
@@ -394,21 +463,21 @@ input[type=text]{
   color: #767676;
   font-weight: normal;
 } 
-
+.area4 h5, .area5 h5, .area6 h5 {
+  font-size: 14px;
+  padding-top: 15px;
+  color: #767676;
+  font-weight: normal;
+} 
 .area1 h5:hover, .area2 h5:hover, .area3 h5:hover {
 text-decoration: underline;
 }
-
- .area1.pic1, .area2.pic2, .area4.pic4, .area5.pic5 {
-  padding-right: 10px;
-} 
- .area4.pic4 {
-  padding-right: 10px;
- }
-
-
+.area4 h5:hover, .area5 h5:hover, .area6 h5:hover {
+text-decoration: underline;
+}
+ 
 .tertiary-overlay {
-background-color: rgba(0, 0, 0, 0.027);
+background-color: rgba(255, 255, 255, 0.027);
 width: 100% ;
 position: relative;
 z-index: 1;
