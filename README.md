@@ -19,7 +19,11 @@ This helped me figure out the segments and their placements.
 ```
 ### CSS
 ```
-Definitely frustrating at times, but very rewarding once you get the hang of it or figure it out! There was a lot to be learned here and that I did. The CSS definitely needed to be sectioned up and focused on. Floats were not as bad as I thought they would have been, but Flexbox or Grid would've been my preferred. 
+Definitely frustrating at times, but very rewarding once you get the hang of it or figure it out! 
+There was a lot to be learned here and that I did. 
+The CSS definitely needed to be sectioned up and focused on. 
+Floats were not as bad as I thought they would have been, but Flexbox or Grid would've been my preferred. 
+
 ```
 
 ## Styling Effects
