@@ -9,7 +9,13 @@ Best way to learn is to jump in and try! The goal was, to the best of my current
 
 ### Html
 ```
-The Html portion, although seemingly simple, required proper attention. As to not make any mistakes and issues later for the CSS portion, I was careful to be clean and accurate. I wanted to make sure to group my sections, classes and ids to make sure there wasn't any confusion. Worst part of it is, coming up with the class and id names! As I got into the groove, it became a pattern. I went ahead and used all sections instead of divs, except for a couple areas. This helped me figure out the segments and their placements.
+The Html portion, although seemingly simple, required proper attention. 
+As to not make any mistakes and issues later for the CSS portion, I was careful to be clean and accurate. 
+I wanted to make sure to group my sections, classes and ids to make sure there wasn't any confusion. 
+Worst part of it is, coming up with the class and id names! As I got into the groove, it became a pattern. 
+I went ahead and used all sections instead of divs, except for a couple areas. 
+This helped me figure out the segments and their placements.
+
 ```
 ### CSS
 ```
