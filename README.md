@@ -15,15 +15,14 @@ I wanted to make sure to group my sections, classes and ids to make sure there w
 Worst part of it is, coming up with the class and id names! As I got into the groove, it became a pattern. 
 I went ahead and used all sections instead of divs, except for a couple areas. 
 This helped me figure out the segments and their placements.
-
 ```
+
 ### CSS
 ```
 Definitely frustrating at times, but very rewarding once you get the hang of it or figure it out! 
 There was a lot to be learned here and that I did. 
 The CSS definitely needed to be sectioned up and focused on. 
 Floats were not as bad as I thought they would have been, but Flexbox or Grid would've been my preferred. 
-
 ```
 
 ## Styling Effects
