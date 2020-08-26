@@ -1,2 +1,15 @@
 # BBC Website
-Best way to learn is to jump in and try! This is an attempt to make the BBC website and what I learned along the way.
+Best way to learn is to jump in and try! 
+
+
+## How Its Made 
+
+**Languages used:**
+
+
+
+## Styling Effects
+
+
+
+# What I Learned
