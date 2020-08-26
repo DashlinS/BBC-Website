@@ -335,7 +335,7 @@ input[type=text]{
   font-weight: lighter;
   left: 12px;
   width: 75%;
-}
+} 
 
 .sec1 > h5, .sec2 > h5,.sec3 > h5,.sec4 > h5 {
   position: absolute;
@@ -352,7 +352,7 @@ input[type=text]{
 }
 
 /* title Area  */
-.news.title, .sports.title{
+.news.title, .sports.title {
   font-size: 1.3rem;
   padding-top: 40px;
   padding-bottom: 10px;
