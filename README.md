@@ -26,7 +26,12 @@ Floats were not as bad as I thought they would have been, but Flexbox or Grid wo
 
 
 ## Styling Effects
+
+## Navigation Bar
+
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" width="1000" height="32">
+
+## More Hover Effects
 
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/mainsection.gif" width="800">
