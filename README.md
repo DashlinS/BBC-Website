@@ -7,7 +7,7 @@ One of the best ways to learn is to just jump in and try! The goal was, to the b
 
 ## How Its Made 
 
-->**Languages used:** Html and CSS<-
+**Languages used:** Html and CSS
 
 ### Html
 
