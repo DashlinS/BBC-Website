@@ -208,9 +208,8 @@ input[type=text]{
 }
 /* IMG  */
 .main-section {
-  background: url('../images/isrealUAE.jpg'), repeat 0 0;
+  background: url('../images/isrealUAE.jpg'), no-repeat;
   background-size:100%;
-  background-repeat:no-repeat;
   width:650px;
   height:360px;
   display: inline-block;
@@ -290,9 +289,8 @@ input[type=text]{
 }
 
 .sec1 {
-  background: url('../images/Americans-go-home.jpeg'), repeat 0 0;
+  background: url('../images/Americans-go-home.jpeg') no-repeat;
   background-size: 100%;
-  background-repeat: no-repeat;
   width: 300px;
   height: 175px;
   display: inline-block;
@@ -300,9 +298,8 @@ input[type=text]{
 }
 
 .sec2 {
-  background: url('../images/Vaccinate.jpg'), repeat 0 0;
+  background: url('../images/Vaccinate.jpg') no-repeat;
   background-size: 100%;
-  background-repeat: no-repeat;
   width: 300px;
   height: 175px;
   display: inline-block;
@@ -310,18 +307,16 @@ input[type=text]{
 }
 
 .sec3 {
-  background: url('../images/folk-singer.jpg'), repeat 0 0;
+  background: url('../images/folk-singer.jpg') no-repeat;
   background-size:100%;
-  background-repeat:no-repeat;
   width: 300px;
   height: 175px;
   display: inline-block;
 }
 
 .sec4 {
-  background: url('../images/online-gyms.jpg'), repeat 0 0;
-  background-size:100%;
-  background-repeat:no-repeat;
+  background: url('../images/online-gyms.jpg') no-repeat;
+  background-size: 100%;
   width: 300px;
   height: 175px;
   display: inline-block;
@@ -337,13 +332,13 @@ input[type=text]{
   width: 75%;
 } 
 
-.sec1 > h5, .sec2 > h5,.sec3 > h5,.sec4 > h5 {
+.sec1 > h5, .sec2 > h5, .sec3 > h5, .sec4 > h5 {
   position: absolute;
   bottom: 7%;
   font-size: 14px;
   font-weight: lighter;
   left: 12px;
-  color: #d3d3d3;
+  color: red!important;
 }
 
 .sec1 > h5:hover, .sec2 > h5:hover, .sec3 > h5:hover, .sec4 > h5:hover {

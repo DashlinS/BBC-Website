@@ -1,5 +1,5 @@
 # BBC Website
-One of the best ways to learn is to just jump in and try! The goal was, to the best of my current ability, recreate the BBC website and learn as much as I can from the challenge! Will continue to update as I learn new tools and techniques.
+One of the best ways to learn is to just jump in and try! The challenge was to the best of my current ability, recreate the BBC website landing page and the first thing you see. The goal is to learn as much as I can from the these challenges and record progress! Will continue to update as I learn new tools and techniques.
 
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/bbcDemo1.png" width="800">
@@ -13,20 +13,13 @@ One of the best ways to learn is to just jump in and try! The goal was, to the b
 
 ### Html
 
-The Html portion, although seemingly simple, required proper attention.
-As to not make any mistakes and issues later for the CSS portion, I was careful to be clean and accurate. 
-I wanted to make sure to group my sections, classes and ids to make sure there wasn't any confusion. 
-Worst part of it was, coming up with the class and id names! But as I got into the groove, it became a pattern. 
-I used section instead of div, except for in a couple areas. 
-This helped me figure out the segments and their placements.
+The Html, although seemingly simple, required proper attention. As to not make any mistakes and issues later for the CSS portion, I was careful to be clean and accurate. I wanted to make sure to group my sections, classes and ids to make sure there wasn't any confusion. Worst part of it was, coming up with the class and id names! But as I got into the groove, it became a pattern. I used section instead of div, except for in a couple areas. This helped me figure out the segments and their placements.
 
 
 ### CSS
 
-The CSS portion was definitely frustrating at times, but very rewarding once I figured out some techniques! 
-There was a lot to be learned here and learn I did. 
-The CSS definitely needed to be sectioned up and focused on. 
-Floats were not as bad as I thought they would have been, but Flexbox or Grid would've been my preferred. 
+The CSS was definitely frustrating at times, but very rewarding once I figured out the solutions! 
+There was some to be learned here. Including `floats` and `positioning` for example. The CSS definitely needed to be sectioned up and focused on. Floats were not as bad as I thought they would have been, but `Flexbox` or `Grid` would've been my preferred. 
 
 
 ## Styling Effects
@@ -42,3 +35,10 @@ The BBC website navigation bar was simple to float, though figuring out the sear
 The websites links and pictures also had effects that I needed to duplicate. I also wanted the pictures to appear a little darker before I applied the opacity change. Some text required an underline hover as well as change in color. This part was fun to do! 
 
 # What I Learned
+
+### HTML and CSS Organization
+
+### ::before & ::after
+
+### Child selectors
+
