@@ -31,12 +31,12 @@ Floats were not as bad as I thought they would have been, but Flexbox or Grid wo
 
 ### Navigation Bar
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" width="1000" height="37">
+The BBC website navigation bar was simple to float, though figuring out the search bar and Logo placement took a bit of time. I applied its effect of color switching depending on which tab you were floating over. Figuring out which colors made it take longer. I'm happy to say I am happy with the results.
 
 ### More Hover Effects
-
-
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/mainsection.gif" width="800">
 </p>
+The websites links and pictures also had effects that I needed to duplicate. I also wanted the pictures to appear a little darker before I applied the opacity change. Some text required an underline hover as well as change in color. This part was fun to do! 
 
 # What I Learned
