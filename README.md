@@ -32,13 +32,18 @@ The BBC website navigation bar was simple to float, though figuring out the sear
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/mainsection.gif" width="800">
 </p>
-The websites links and pictures also had effects that I needed to duplicate. I also wanted the pictures to appear a little darker before I applied the opacity change. Some text required an underline hover as well as change in color. This part was fun to do! 
+The websites links and pictures also had effects that I needed to duplicate. I also wanted the pictures to appear a little darker before I applied some layered opacity. Some text required an underline hover, as well as, change in color. This part was fun to do! 
 
 # What I Learned
 
 ### HTML and CSS Organization
 
+This section is a given and self explanatory, but so important! I learned to be more careful with "keywords" in class names and ids. Structure is also crucial. Making sure the code was better organized and indented properly was important. This kept me on track better than before.
+
 ### ::before & ::after
 
-### Child selectors
+I learned about these selectors and how to use them. Although only using the `::before` in my css, I see why they're useful and how they are used! 
 
+### Combinators
+
+I learned more about these types of selectors and when they are used. I Mostly used the `child combinator >` and with it, I was able to select many elements at once. Really helped trim down my CSS.

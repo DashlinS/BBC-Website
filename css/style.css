@@ -13,7 +13,7 @@
 
 /* LINK AREA */
 a:link, :visited {
-  color: #fff;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -25,6 +25,7 @@ li a {
  li {
   border-bottom: 3px solid black;
   padding-top: 5px;
+  color: #fff;
 } 
 
 li.color-cyan:hover {
@@ -47,7 +48,7 @@ li.color-green:hover {
 border-bottom: 4px #589e50 solid;
 }
 li.color-dark-navy:hover {
-border-bottom: 4px #002856 solid;
+border-bottom: 4px #0b407e solid;
 }
 li.color-purple:hover {
 border-bottom: 4px #482878 solid;
@@ -239,25 +240,27 @@ input[type=text]{
 .main-section > h3 {
   position: absolute;
   color: #fff;
-  bottom: 84px;
+  bottom: 80px;
   left: 2%;
   font-size: 33px;
   font-weight: lighter;
+  padding-bottom: 20px;
 }
 /* PARAGRAPH */
 .main-section > p {
   position: absolute;
-  color: #d2d2d2;
+  color: #d1d1d1;
   bottom: 40px;
   left: 2%;
   font-size: 17px;
   z-index: 0;
   width: 90%;
+  padding: 15px 0;
 }
 /* HEADING 5 */
 .main-section > h5{
   position: absolute;
-  color: #d3d3d3;
+  color: #ddd;
   bottom: 20px;
   left: 2%;
   font-size: 15px;
@@ -330,6 +333,7 @@ input[type=text]{
   font-weight: lighter;
   left: 12px;
   width: 75%;
+  padding: 5px 0;
 } 
 
 .sec1 > h5, .sec2 > h5, .sec3 > h5, .sec4 > h5 {
@@ -338,7 +342,7 @@ input[type=text]{
   font-size: 14px;
   font-weight: lighter;
   left: 12px;
-  color: red!important;
+  color: #d3d3d3;
 }
 
 .sec1 > h5:hover, .sec2 > h5:hover, .sec3 > h5:hover, .sec4 > h5:hover {
