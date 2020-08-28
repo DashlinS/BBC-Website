@@ -33,6 +33,7 @@ The BBC website navigation bar was simple to float, though figuring out the sear
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/mainsection.gif" width="800">
 </p>
+
 The websites links and pictures also had effects that I needed to duplicate. I also wanted the pictures to appear a little darker before I applied some layered opacity. Some text required an underline hover, as well as, change in color. This part was fun to do! 
 
 # What I Learned
