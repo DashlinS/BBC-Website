@@ -27,7 +27,7 @@ There was some to be learned here. Including `floats` and `positioning` for exam
 
 ### Navigation Bar
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" width="1000" height="37">
-The BBC website navigation bar was simple to float, though figuring out the search bar and Logo placement took a bit of time. I applied its effect of color switching depending on which tab you were floating over. The color matching color choices was quick after a little research. I am content with the results!
+The BBC website navigation bar was simple to float, though figuring out the search bar and Logo placement took a bit of time. I applied its effect of color switching depending on which tab you were floating over. Finding the matching colors was quick and I am content with the results!
 
 ### More Hover Effects
 <p align="center">
