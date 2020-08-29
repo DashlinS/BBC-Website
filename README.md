@@ -22,8 +22,8 @@ The Html, although seemingly simple, required proper attention. As to not make a
 
 ### CSS
 
-The CSS was definitely frustrating at times, but very rewarding once I figured out the solutions! 
-There was some to be learned here. Including `floats` and `positioning` for example. The CSS definitely needed to be sectioned up and focused on. Floats were not as bad as I thought they would have been, but `Flexbox` or `Grid` would've been my preferred. 
+The CSS was very rewarding once I figured out the flow! 
+There was some lessons to be learned here. Including with `floats` and `positioning` for example. The CSS definitely needed to be sectioned up and focused on. Floats were not difficult, but `Flexbox` or `Grid` would've been my preferred. 
 
 
 ## Styling Effects
