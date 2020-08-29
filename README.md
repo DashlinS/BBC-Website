@@ -33,7 +33,8 @@ There was some to be learned here. Including `floats` and `positioning` for exam
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" height="37">
 </p>   
-                                                                                                            
+
+<p align="center">                                                                                                          
 The BBC website navigation bar was simple to float, though figuring out the search bar and Logo placement took a bit of time. I applied its effect of color switching depending on which tab you were floating over. Finding the matching colors was quick and I am content with the results!
 
 ### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;More Hover Effects
@@ -42,7 +43,9 @@ The BBC website navigation bar was simple to float, though figuring out the sear
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/mainsection.gif" width="800">
 </p>
 
+<p align="center">
 The websites links and pictures also had effects that I needed to duplicate. I also wanted the pictures to appear a little darker before I applied some layered opacity. Some text required an underline hover, as well as, change in color. This part was fun to do! 
+</p> 
 
 # &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;What I Learned
 
