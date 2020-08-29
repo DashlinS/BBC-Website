@@ -5,7 +5,7 @@ One of the best ways to learn is to just jump in and try! The challenge was to t
 </p>
 &emsp;
 <p align="center">
-<img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/bbcDemo1.png" width="800">
+<img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/bbcDemo1.png" width="900">
 </p>
 <!-- https://bbcwebsite.netlify.app -->
 
@@ -29,20 +29,22 @@ There was some to be learned here. Including `floats` and `positioning` for exam
 ## Styling Effects
 
 ### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Navigation Bar
-<p align="center>
-<img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" width="700" height="35">
+
+<p align="center">
+<img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" height="37">
 </p>   
                                                                                                             
 The BBC website navigation bar was simple to float, though figuring out the search bar and Logo placement took a bit of time. I applied its effect of color switching depending on which tab you were floating over. Finding the matching colors was quick and I am content with the results!
 
 ### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;More Hover Effects
+
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/mainsection.gif" width="800">
 </p>
 
 The websites links and pictures also had effects that I needed to duplicate. I also wanted the pictures to appear a little darker before I applied some layered opacity. Some text required an underline hover, as well as, change in color. This part was fun to do! 
 
-# What I Learned
+# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;What I Learned
 
 ### HTML and CSS Organization
 
