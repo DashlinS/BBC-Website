@@ -1,6 +1,8 @@
-# BBC Website
-One of the best ways to learn is to just jump in and try! The challenge was to the best of my current ability, recreate the BBC website landing page and the first thing you see. The goal is to learn as much as I can from the these challenges and record progress! Will continue to update as I learn new tools and techniques.
+# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;BBC Website
+&emsp;
 
+One of the best ways to learn is to just jump in and try! The challenge was to the best of my current ability, recreate the BBC website landing page and the first thing you see. The goal is to learn as much as I can from the these challenges and record progress! Will continue to update as I learn new tools and techniques.  
+&emsp;
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/bbcDemo1.png" width="800">
 </p>
@@ -25,11 +27,14 @@ There was some to be learned here. Including `floats` and `positioning` for exam
 
 ## Styling Effects
 
-### Navigation Bar
-<img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" width="1000" height="37">
+### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Navigation Bar
+<p align="center>
+<img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" width="700" height="35">
+</p>   
+                                                                                                            
 The BBC website navigation bar was simple to float, though figuring out the search bar and Logo placement took a bit of time. I applied its effect of color switching depending on which tab you were floating over. Finding the matching colors was quick and I am content with the results!
 
-### More Hover Effects
+### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;More Hover Effects
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/mainsection.gif" width="800">
 </p>
