@@ -1,4 +1,4 @@
-# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;BBC Website
+# BBC Website
 &emsp;
 <p align="center">
 One of the best ways to learn is to just jump in and try! The challenge was to the best of my current ability, recreate the BBC website landing page and the first thing you see. The goal is to learn as much as I can from the these challenges and record progress! Will continue to update as I learn new tools and techniques.  
@@ -28,7 +28,7 @@ There was some lessons to be learned here. Including with `floats` and `position
 
 ## Styling Effects
 
-### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Navigation Bar
+### Navigation Bar
 
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/navbar.gif" height="37">
@@ -37,7 +37,7 @@ There was some lessons to be learned here. Including with `floats` and `position
 <p align="center">                                                                                                          
 The BBC website navigation bar was simple to float, though figuring out the search bar and Logo placement took a bit of time. I applied its effect of color switching depending on which tab you were floating over. Finding the matching colors was quick and I am content with the results!
 
-### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;More Hover Effects
+### More Hover Effects
 
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/mainsection.gif" width="800">
@@ -47,7 +47,7 @@ The BBC website navigation bar was simple to float, though figuring out the sear
 The websites links and pictures also had effects that I needed to duplicate. I also wanted the pictures to appear a little darker before I applied some layered opacity. Some text required an underline hover, as well as, change in color. This part was fun to do! 
 </p> 
 
-# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;What I Learned
+# What I Learned
 
 ### HTML and CSS Organization
 
