@@ -53,7 +53,7 @@ The websites links and pictures also had effects that I needed to duplicate. I a
 
 This section is a given and self explanatory, but so important! I learned to be more careful with "keywords" in class names and ids. Structure is also crucial. Making sure the code was better organized and indented properly was important. This kept me on track better than before.
 
-### ::before & ::after
+### ::before & ::after Pseudo-Elements
 
 I learned about these selectors and how to use them. Although only using the `::before` in my css, I see why they're useful and how they are used! 
 
@@ -61,5 +61,5 @@ I learned about these selectors and how to use them. Although only using the `::
 
 I learned more about these types of selectors and when they are used. I Mostly used the `child combinator >` and with it, I was able to select many elements at once. Really helped trim down my CSS.
 
-### My other Html & CSS projects 
+### My Html & CSS projects 
 * [Biography.com](https://github.com/DashlinS/Biography)
