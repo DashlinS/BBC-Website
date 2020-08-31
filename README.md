@@ -60,3 +60,6 @@ I learned about these selectors and how to use them. Although only using the `::
 ### Combinators
 
 I learned more about these types of selectors and when they are used. I Mostly used the `child combinator >` and with it, I was able to select many elements at once. Really helped trim down my CSS.
+
+### My other Html & CSS projects 
+* [Biography.com](https://github.com/DashlinS/Biography)
