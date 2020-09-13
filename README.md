@@ -7,7 +7,7 @@ One of the best ways to learn is to just jump in and try! The challenge was to t
 <p align="center">
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/bbcDemo1.png" width="900">
 </p>
-<!-- https://bbcwebsite.netlify.app -->
+https://bbcwebsite.netlify.app
 
 
 
