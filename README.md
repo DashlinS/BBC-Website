@@ -8,7 +8,7 @@ One of the best ways to learn is to just jump in and try! The challenge was to t
 <img src="https://github.com/DashlinS/BBCWebsite/blob/master/images/gifs/bbcDemo1.png" width="900">
 </p>
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://bbcwebsite.netlify.app)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://bbcwebsite.netlify.app)
 
 
 
