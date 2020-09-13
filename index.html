@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/e718c4b2bc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hover.css">
     <title>BBC Homepage</title>
   </head>
 
@@ -16,17 +17,17 @@
           <!-- logo -->
           <li><a href="#"><img id="logo" src="./images/bbc-logo.jpg" alt="bbc logo"></a></li>
           <!-- Sign in -->
-          <li class="color-cyan"><a href="#"><i class="fas fa-user-circle"></i>Sign in</a></li>
-          <li><a href="#">Home</a></li>
-          <li class="color-red"><a href="#">News</a></li>
-          <li class="color-yellow"><a href="#">Sport</a></li>
-          <li class="color-lightblue"><a href="#">Reel</a></li>
-          <li class="color-navy"><a href="#">Worklife</a></li>
-          <li class="color-green"><a href="#">Travel</a></li>
-          <li class="color-dark-navy"><a href="#">Future</a></li>
-          <li class="color-purple"><a href="#">Culture</a></li>
+          <li class="nav-sign-in"><a href="#"><i class="fas fa-user-circle"></i><span class="sign-in">Sign in</span></a></li>
+          <li class="nav-home"><a href="#">Home</a></li>
+          <li class="nav-news"><a href="#">News</a></li>
+          <li class="nav-sport"><a href="#">Sport</a></li>
+          <li class="nav-reel"><a href="#">Reel</a></li>
+          <li class="nav-worklife"><a href="#">Worklife</a></li>
+          <li class="nav-travel"><a href="#">Travel</a></li>
+          <li class="nav-future"><a href="#">Future</a></li>
+          <li class="nav-culture"><a href="#">Culture</a></li>
           <!-- More options -->
-          <li class="color-white">
+          <li class="nav-select">
             <a href="#">
               <label for="select"><span class="more">More</span>
                 <select name="select">
@@ -36,7 +37,7 @@
             </a>
           </li>
           <!-- Search bar -->
-          <li>
+          <li class="search-bar">
             <a href="#">
               <label for="text">
                 <form action="submit.php">
@@ -48,50 +49,49 @@
         </ul>
       </nav>
     </header>
-    <section class="welcome">
-      <h2>Welcome to BBC.com</h2>
-      <p>Tuesday, 25 August</p>
-    </section>
-    <div class="clr"></div>
-
     <!-- Main Section -->
     <section class="body-width">
+      <section class="welcome">
+        <h2>Welcome to BBC.com</h2>
+        <p>Tuesday, 25 August</p>
+      </section>
+      <div class="clr"></div>
       <section class="container">
         <section class="main-section">
-          <a href="#">
-            <div class="main-overlay"></div>
-          </a>
           <h3><a href="#">Isreal and UAE strike historic peace deal</a></h3>
+          <div class="btn"><a href="">Learn More</a></div>
           <p><a href="#">Isreal and the UAE agree to normalise relations, marking the third Isreal-Arab peace deal.</a></p>
           <h5><a href="#">MIDDLE EAST</a></h5>
         </section>
-        <section class="sec1">
-          <a href="#">
-            <div class="secondary-overlay"></div>
-          </a>
-          <p><a href="#">Americans, go home: Tension at Canada-US border</a></p>
-          <h5><a href="#">CANADA</a></h5>
-        </section>
-        <section class="sec2">
-          <a href="#">
-            <div class="secondary-overlay"></div>
-          </a>
-          <p><a href="#">How will the world vaccinate seven billion people?</a></p>
-          <h5><a href="#">HEALTH</a></h5>
-        </section>
-        <section class="sec4">
-          <a href="#">
-            <div class="secondary-overlay"></div>
-          </a>
-          <p><a href="#">The online 'productivity gyms'</a></p>
-          <h5><a href="#">WORKLIFE</a></h5>
-        </section>
-        <section class="sec3">
-          <a href="#">
-            <div class="secondary-overlay"></div>
-          </a>
-          <p><a href="#">The folk singer murdered for his music</a></p>
-          <h5><a href="#">CULTURE</a></h5>
+        <section class="main-section-second-section">
+          <section class="sec1">
+            <a href="#">
+              <div class="secondary-overlay"></div>
+            </a>
+            <p><a href="#">Americans, go home: Tension at Canada-US border</a></p>
+            <h5><a href="#">CANADA</a></h5>
+          </section>
+          <section class="sec2">
+            <a href="#">
+              <div class="secondary-overlay"></div>
+            </a>
+            <p><a href="#">How will the world vaccinate seven billion people?</a></p>
+            <h5><a href="#">HEALTH</a></h5>
+          </section>
+          <section class="sec4">
+            <a href="#">
+              <div class="secondary-overlay"></div>
+            </a>
+            <p><a href="#">The online 'productivity gyms'</a></p>
+            <h5><a href="#">WORKLIFE</a></h5>
+          </section>
+          <section class="sec3">
+            <a href="#">
+              <div class="secondary-overlay"></div>
+            </a>
+            <p><a href="#">The folk singer murdered for his music</a></p>
+            <h5><a href="#">CULTURE</a></h5>
+          </section>
         </section>
       </section>
 

@@ -1,0 +1,58 @@
+li.nav-sign-in:hover {
+border-bottom: 4px #18b solid;
+
+}
+li.nav-news:hover {
+border-bottom: 4px #bb1919 solid;
+}
+li.nav-sport:hover {
+border-bottom: 4px #ffd240 solid;
+}
+li.nav-reel:hover {
+border-bottom: 4px #0068ff solid;
+}
+li.nav-worklife:hover {
+border-bottom: 4px #0052a1 solid;
+}
+li.nav-travel:hover {
+border-bottom: 4px #589e50 solid;
+}
+li.nav-future:hover {
+border-bottom: 4px #0b407e solid;
+}
+li.nav-culture:hover {
+border-bottom: 4px #482878 solid;
+}
+li.nav-select:hover {
+border-bottom: 3px #fff solid;
+}
+
+/* IMAGE HOVER */
+a img:hover{
+  opacity: .92;
+}
+
+/* main-section HOVER  */
+.main-section:hover {
+  opacity: .92;
+}
+.main-section > h5:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.container .sec1:hover, .sec2:hover, .sec3:hover, .sec4:hover {
+  opacity: .92;
+}
+
+.sec1 > h5:hover, .sec2 > h5:hover, .sec3 > h5:hover, .sec4 > h5:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.area1 h5:hover, .area2 h5:hover, .area3 h5:hover {
+text-decoration: underline;
+}
+.area4 h5:hover, .area5 h5:hover, .area6 h5:hover {
+text-decoration: underline;
+}

@@ -5,61 +5,8 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   overflow: auto;
-}
-
-.clr {
-     clear: both;
-}
-
-/* LINK AREA */
-a:link, :visited {
   color: inherit;
   text-decoration: none;
-}
-
-li a {
-  display: inline-block;
-  padding: 5px 23px;
-}
-
- li {
-  border-bottom: 3px solid black;
-  padding-top: 5px;
-  color: #fff;
-} 
-
-li.color-cyan:hover {
-border-bottom: 4px #18b solid;
-
-}
-li.color-red:hover {
-border-bottom: 4px #bb1919 solid;
-}
-li.color-yellow:hover {
-border-bottom: 4px #ffd240 solid;
-}
-li.color-lightblue:hover {
-border-bottom: 4px #0068ff solid;
-}
-li.color-navy:hover {
-border-bottom: 4px #0052a1 solid;
-}
-li.color-green:hover {
-border-bottom: 4px #589e50 solid;
-}
-li.color-dark-navy:hover {
-border-bottom: 4px #0b407e solid;
-}
-li.color-purple:hover {
-border-bottom: 4px #482878 solid;
-}
-li.color-white:hover {
-border-bottom: 3px #fff solid;
-}
-
-/* IMAGE HOVER */
-a img:hover{
-  opacity: .92;
 }
 
 /* LINES BEFORE HEADERS */
@@ -68,7 +15,7 @@ a img:hover{
   display: inline-block;
   margin-right: 0.2rem;
   border-left: 3px solid red;
-  height: .98rem;
+  height: 0.98rem;
   padding: 0;
   width: 0;
 }
@@ -77,12 +24,14 @@ a img:hover{
   display: inline-block;
   margin-right: 0.2rem;
   border-left: 3px solid yellow;
-  height: .98rem;
+  height: 0.98rem;
   padding: 0;
   width: 0;
 }
 
-.area1 h5::before, .area2 h5::before, .area3 h5::before{
+.area1 h5::before,
+.area2 h5::before,
+.area3 h5::before {
   content: " ";
   display: inline-block;
   margin-right: 0.38rem;
@@ -91,7 +40,9 @@ a img:hover{
   padding: 0;
   width: 0;
 }
-.area4 h5::before, .area5 h5::before, .area6 h5::before{
+.area4 h5::before,
+.area5 h5::before,
+.area6 h5::before {
   content: " ";
   display: inline-block;
   margin-right: 0.38rem;
@@ -103,25 +54,37 @@ a img:hover{
 
 /* CENTERING */
 .body-width {
-  width: 1400px; 
+  width: 1400px;
   margin: 0 auto;
 }
 
 .navbar {
   background-color: #000;
-  font-size: .8437rem; 
-  padding: 0 548px; 
-  position: relative;
+  font-size: 0.8437rem;
+}
+
+.navbar ul {
+  width: 100%;
+  margin: auto 0;
+  text-align: center;
+  margin-left: -5.5%;
 }
 
 .navbar li {
-  float: left;
-  /* padding: 11px 22px; */
+  display: inline-block;
   border-right: 1.1px solid rgb(129, 127, 127);
   line-height: 1.2em;
   vertical-align: middle;
-  position: relative;
   font-weight: bold;
+  border-bottom: 3px solid black;
+  padding-top: 5px;
+  color: #fff;
+  height: 40px;
+}
+
+li a {
+  display: inline-block;
+  padding: 5px 21px;
 }
 
 /* BBC Logo  */
@@ -143,8 +106,8 @@ a img:hover{
 }
 
 /* sign-in  */
- .navbar li:nth-child(2) {
-  padding-right: 70px;
+.navbar li:nth-child(2) {
+  padding-right: 60px;
 }
 
 /* Select button  */
@@ -162,137 +125,109 @@ select {
 }
 
 /* input field  */
-input[type=text]{
+input[type="text"] {
   border: none;
   padding: 7px;
-  width: 170px;
-  height: 15px;
-  font-size: .9rem;
+  width: 150px;
+  height: 23px;
+  font-size: 0.9rem;
   color: #000;
   outline: none;
-} 
+  position: absolute;
+  top: 8px;
+}
 /* NavBar End */
 
 /* WELCOME SECTION */
 .welcome {
-  padding: 23px 121px 2px 0px;
-  margin: 10px 570px;
+  margin: 20px 0;
 }
 /* Welcome to BBC.com */
-.welcome h2{
+.welcome h2 {
   font-size: 1.35rem;
-  display: block;
   float: left;
   color: #444;
 }
 /* Date */
-.welcome p{
+.welcome p {
   font-size: 1.4rem;
   color: rgb(134, 133, 133);
-  display: block;
   float: right;
+  margin-right: 9%;
 }
 
 /* MAIN SECTION CONTAINER */
-.container{
-  max-width: 100%;
-  max-height: 350px;
+.container {
+  /* width: 100%; */
+  height: 350px;
   color: #fff;
   overflow: hidden;
 }
-
-/* MAIN LEFT IMG AND OVERLAY  */
-.main-section {
-  float: left;
-  max-width: 50%;
-  position: relative;
-}
 /* IMG  */
 .main-section {
-  background: url('../images/isrealUAE.jpg'), no-repeat;
-  background-size:100%;
-  width:650px;
-  height:360px;
-  display: inline-block;
+  background: url("../images/isrealUAE.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  width: 650px;
+  height: 360px;
   margin-right: 15px;
   position: relative;
+  word-wrap: break-word;
 }
-
-/* OVERLAY  */
-.main-overlay{
-  background:rgba(0, 0, 0, 0.158);
-  display: inline-block;
-  background-size:90%;
-  background-repeat:no-repeat;
-  width:650px;
-  height:350px;
-  z-index: 9;
-} 
-/* HOVER  */
-.main-section:hover {
-  opacity: .92;
-}
-.main-section > h5:hover {
-  text-decoration: underline;
-  color: #fff;
+.btn {
+  padding: 10px 5px;
+  background-color:black;
+  color: white;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  display: none; 
 }
 /* HEADING 3  */
-.main-section > h3 {
-  position: absolute;
+.main-section h3 {
   color: #fff;
-  bottom: 80px;
-  left: 2%;
-  font-size: 33px;
+  font-size: 2rem;
   font-weight: lighter;
-  padding-bottom: 20px;
+  margin-top: 30%;
 }
 /* PARAGRAPH */
-.main-section > p {
-  position: absolute;
+.main-section p {
+  width: 100%;
   color: #d1d1d1;
-  bottom: 40px;
-  left: 2%;
-  font-size: 17px;
-  z-index: 0;
-  width: 90%;
-  padding: 15px 0;
+  font-size: 20px;
+  margin: 15px 0;
 }
 /* HEADING 5 */
-.main-section > h5{
-  position: absolute;
+.main-section h5 {
   color: #ddd;
-  bottom: 20px;
-  left: 2%;
   font-size: 15px;
   font-weight: lighter;
-  z-index: 10;
 }
 /* MAIN SECTION END  */
-.secondary-overlay{
-  background:rgba(0, 0, 0, 0.158);
+.secondary-overlay {
+  background: rgba(0, 0, 0, 0.158);
   display: inline-block;
-  background-size:90%;
-  background-repeat:no-repeat;
-  width:300px;
-  height:168px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 168px;
   z-index: 9;
 }
 
-.container .sec1, .sec2, .sec3, .sec4 {
-  max-width: 100%;
+.container .sec1,
+.sec2,
+.sec3,
+.sec4 {
+  /* width: 100%; */
   position: relative;
 }
 
-.container .sec1:hover, .sec2:hover, .sec3:hover, .sec4:hover {
-  opacity: .92;
-}
-
-.container .sec1, .sec4{
+.container .sec1,
+.sec4 {
   margin-right: 9px;
 }
 
 .sec1 {
-  background: url('../images/Americans-go-home.jpeg') no-repeat;
+  background: url("../images/Americans-go-home.jpeg");
+  background-repeat: no-repeat;
   background-size: 100%;
   width: 300px;
   height: 175px;
@@ -301,7 +236,8 @@ input[type=text]{
 }
 
 .sec2 {
-  background: url('../images/Vaccinate.jpg') no-repeat;
+  background: url("../images/Vaccinate.jpg");
+  background-repeat: no-repeat;
   background-size: 100%;
   width: 300px;
   height: 175px;
@@ -310,23 +246,27 @@ input[type=text]{
 }
 
 .sec3 {
-  background: url('../images/folk-singer.jpg') no-repeat;
-  background-size:100%;
+  background: url("../images/folk-singer.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   width: 300px;
   height: 175px;
   display: inline-block;
 }
 
 .sec4 {
-  background: url('../images/online-gyms.jpg') no-repeat;
+  background: url("../images/online-gyms.jpg");
+  background-repeat: no-repeat;
   background-size: 100%;
   width: 300px;
   height: 175px;
   display: inline-block;
-} 
+}
 
-
-.sec1 > p, .sec2 > p, .sec3 > p, .sec4 > p {
+.sec1 > p,
+.sec2 > p,
+.sec3 > p,
+.sec4 > p {
   position: absolute;
   bottom: 18%;
   font-size: 17px;
@@ -334,9 +274,12 @@ input[type=text]{
   left: 12px;
   width: 75%;
   padding: 5px 0;
-} 
+}
 
-.sec1 > h5, .sec2 > h5, .sec3 > h5, .sec4 > h5 {
+.sec1 > h5,
+.sec2 > h5,
+.sec3 > h5,
+.sec4 > h5 {
   position: absolute;
   bottom: 7%;
   font-size: 14px;
@@ -345,13 +288,9 @@ input[type=text]{
   color: #d3d3d3;
 }
 
-.sec1 > h5:hover, .sec2 > h5:hover, .sec3 > h5:hover, .sec4 > h5:hover {
-  text-decoration: underline;
-  color: #fff;
-}
-
 /* title Area  */
-.news.title, .sports.title {
+.news.title,
+.sports.title {
   font-size: 1.3rem;
   padding-top: 40px;
   padding-bottom: 10px;
@@ -359,8 +298,8 @@ input[type=text]{
 }
 /* Second section */
 #secondary {
-  max-width: 100%;
-  height: 400px;
+  /* max-width: 100%; */
+  /* height: 400px; */
 }
 
 /* First Block  */
@@ -370,7 +309,7 @@ input[type=text]{
 }
 
 .area1.pic1 img {
-  width: 100%; 
+  width: 100%;
 }
 
 .area2.pic2 {
@@ -392,8 +331,9 @@ input[type=text]{
 
 /* Second Block  */
 #tertiary {
-  max-width: 100%;
-  height: 445px; 
+  /* max-width: 100%;
+  height: 445px;  */
+  margin-bottom: 100px;
 }
 
 .area4.pic4 {
@@ -402,7 +342,7 @@ input[type=text]{
 }
 
 .area4.pic4 img {
-  width: 100%; 
+  width: 100%;
 }
 
 .area5.pic5 {
@@ -423,61 +363,263 @@ input[type=text]{
 }
 
 /* Padding */
-.area4.pic4, .area5.pic5 {
+.area4.pic4,
+.area5.pic5 {
   margin-right: 10px;
 }
 
- .area1.pic1, .area2.pic2 {
+.area1.pic1,
+.area2.pic2 {
   padding-right: 10px;
-} 
+}
 
 /* Combined */
-.area1 h4, .area2 h4, .area3 h4{
+.area1 h4,
+.area2 h4,
+.area3 h4 {
   display: inline-block;
   padding-bottom: 4px;
   padding-top: 5px;
   font-size: 19px;
 }
 
-.area4 h4, .area5 h4, .area6 h4{
+.area4 h4,
+.area5 h4,
+.area6 h4 {
   display: inline-block;
   padding-bottom: 4px;
   padding-top: 5px;
   font-size: 19px;
 }
 
-.area1 p, .area2 p, .area3 p {
+.area1 p,
+.area2 p,
+.area3 p {
   font-size: 16px;
   color: #444;
 }
 
-.area4 p, .area5 p, .area6 p {
+.area4 p,
+.area5 p,
+.area6 p {
   font-size: 16px;
   color: #444;
 }
 
-.area1 h5, .area2 h5, .area3 h5 {
+.area1 h5,
+.area2 h5,
+.area3 h5 {
   font-size: 14px;
   padding-top: 15px;
   color: #767676;
   font-weight: normal;
-} 
-.area4 h5, .area5 h5, .area6 h5 {
+}
+.area4 h5,
+.area5 h5,
+.area6 h5 {
   font-size: 14px;
   padding-top: 15px;
   color: #767676;
   font-weight: normal;
-} 
-.area1 h5:hover, .area2 h5:hover, .area3 h5:hover {
-text-decoration: underline;
 }
-.area4 h5:hover, .area5 h5:hover, .area6 h5:hover {
-text-decoration: underline;
-}
- 
+
 .tertiary-overlay {
-background-color: rgba(255, 255, 255, 0.027);
-width: 100% ;
-position: relative;
-z-index: 1;
-} 
+  background-color: rgba(255, 255, 255, 0.027);
+  /* width: 100%; */
+  position: relative;
+  z-index: 1;
+}
+
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+  /* insert styles here */
+  .body-width {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    margin: 0;
+    font-size: 0.78rem;
+  }
+
+  #logo {
+    width: 4.5rem;
+    margin-left: -0.3rem;
+    margin-right: 2px;
+  }
+  .navbar .sign-in {
+    font-size: 0;
+  }
+  .color-cyan i {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  li a {
+    padding: 5px 10px;
+    margin: 0;
+    margin: 0 10px;
+  }
+  .navbar li:nth-child(2) {
+    padding-right: 0;
+  }
+
+  .navbar.nav-worklife,
+  .nav-travel,
+  .nav-future,
+  .nav-culture,
+  .nav-select {
+    display: none !important;
+    background-color: red;
+  }
+
+  .welcome,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4 {
+    display: none;
+  }
+  .secondary-over,
+  .main-overlay {
+    display: none;
+  }
+  .main-section {
+    overflow: hidden;
+    text-align: center;
+    background-position: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .main-section h5 {
+    display: none;
+  }
+
+  .news.title,
+  .sports.title {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
+    margin: 0 20px;
+  }
+
+  #secondary .area1.pic1,
+  .area2.pic2,
+  .area3.pic3 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+  #tertiary .area4.pic4,
+  .area5.pic5,
+  .area6.pic6 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+  #secondary h5,
+  #tertiary h5 {
+    margin-bottom: 10px;
+  }
+}
+/* (1224x801) galaxy */
+@media only screen and (min-device-width: 801px) and (max-device-width: 1224px) {
+  .navbar.nav-worklife,
+  .nav-travel,
+  .nav-future,
+  .nav-culture {
+    display: none !important;
+  }
+  .body-width {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    margin-bottom: 40px;
+  }
+  input[type="text"] {
+    display: none;
+  }
+  .welcome,
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec4,
+  .main-overlay,
+  .main-section > h5 {
+    display: none;
+  }
+
+  .main-section {
+    overflow: hidden;
+    text-align: center;
+    background-position: center;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .main-section > h3 {
+    margin-top: 25%;
+  }
+  .main-section p {
+    display: none;
+  }
+  .btn {
+    display: inline-block;
+  }
+
+  #secondary .area1.pic1,
+  .area2.pic2,
+  .area3.pic3 {
+    display: block;
+    text-align: center;
+    width: 70%;
+    padding: 0 20px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+  }
+  #tertiary .area4.pic4,
+  .area5.pic5,
+  .area6.pic6 {
+    display: block;
+    text-align: center;
+    width: 70%;
+    padding: 0 20px;
+    margin-left: 15%;
+  }
+  .news.title,
+  .sports.title {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000;
+    margin: 10px 20px;
+  }
+  .area1 h4,
+  .area2 h4,
+  .area3 h4 {
+    font-size: 1.7rem;
+  }
+  .area4 h4,
+  .area5 h4,
+  .area6 h4 {
+    font-size: 1.7rem;
+  }
+  .area1 p,
+  .area2 p,
+  .area3 p {
+    font-size: 1.2rem;
+  }
+  .area4 p,
+  .area5 p,
+  .area6 p {
+    font-size: 1.2rem;
+  }
+}
