@@ -10,9 +10,6 @@ One of the best ways to learn is to just jump in and try! The challenge was to t
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://bbcwebsite.netlify.app)
 
-
-
-
 ## How Its Made 
 
 **Languages used:** Html and CSS
@@ -21,12 +18,10 @@ One of the best ways to learn is to just jump in and try! The challenge was to t
 
 The Html, although seemingly simple, required proper attention. As to not make any mistakes and issues later for the CSS portion, I was careful to be clean and accurate. I wanted to make sure to group my sections, classes and ids to make sure there wasn't any confusion. Worst part of it was, coming up with the class and id names! But as I got into the groove, it became a pattern. I used section instead of div, except for in a couple areas. This helped me figure out the segments and their placements.
 
-
 ### CSS
 
 The CSS was very rewarding once I figured out the flow! 
 There was some lessons to be learned here. Including with `floats` and `positioning` for example. The CSS definitely needed to be sectioned up and focused on. Floats were not difficult, but `Flexbox` or `Grid` would've been my preferred. 
-
 
 ## Styling Effects
 
