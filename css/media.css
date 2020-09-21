@@ -1,0 +1,286 @@
+
+/* (480x800) Android */
+@media only screen and (max-width: 700px) {
+  .body-width {
+    width: 100%;
+  }
+  .navbar{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: .76rem;
+  }
+   li a {
+    padding: 2px 10px;
+  } 
+
+  .navbar img {
+   width: 100%;   
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    overflow: hidden;
+  }
+
+  #logo {
+    height: 21px;
+    width: 53px;
+    padding-right: 10px;
+  }
+  .sign-in {
+    font-size: 0;
+  }
+  .nav-sign-in i {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:nth-child(2){
+    padding-right: 0;
+  }
+  select {
+    margin: 0;
+    padding: 0;
+  }
+ .navbar .nav-worklife, .navbar .nav-travel, .navbar .nav-future, .navbar .nav-culture, .navbar .search-bar {
+    display: none;
+  }
+  .welcome, .sec1, .sec2, .sec3, .sec4 {
+    display: none;
+  }
+  .main-section {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-position: center;
+    margin-top: 20px;
+  }
+  input[type="text"] {
+    display: none;
+  }
+  .news.title,
+  .sports.title {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
+    margin: 0 20px;
+    text-align: center;
+  }
+  #secondary .area1.pic1,
+  .area2.pic2,
+  .area3.pic3 {
+    display: block;
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tertiary .area4.pic4,
+  .area5.pic5,
+  .area6.pic6 {
+    display: block;
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #secondary h5,
+  #tertiary h5 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1000px){
+  .body-width {
+    width: 700px;
+  }
+  .navbar{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: .76rem;
+  }
+   li a {
+    padding: 2px 15px;
+  } 
+
+  .navbar img {
+   width: 100%;   
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    overflow: hidden;
+  }
+
+  #logo {
+    height: 21px;
+    width: 53px;
+    padding-right: 10px;
+  }
+  .sign-in {
+    font-size: 0;
+  }
+  .nav-sign-in i {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:nth-child(2){
+    padding-right: 0;
+  }
+  select {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar .nav-future, .navbar .nav-culture{
+    display: none;
+  }
+  .welcome {
+    /* margin-left: 20px; */
+  }
+  .main-section {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-position: center;
+  }
+ 
+  .news.title,
+  .sports.title {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #000;
+    margin: 0 20px;
+    text-align: center;
+  }
+  #secondary .area1.pic1,
+  .area2.pic2,
+  .area3.pic3 {
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  .area1.pic1 img {
+  width: 100%;
+  }
+  
+  #tertiary .area4.pic4,
+  .area5.pic5,
+  .area6.pic6 {
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  .area6.pic6{
+    width: 240px;
+  }
+  
+}
+
+@media (min-width: 1001px) and (max-width: 1188px){
+.body-width {
+    width: 1100px;
+  }
+  .navbar{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: .76rem;
+  }
+   li a {
+    padding: 7px 15px;
+  } 
+
+  .navbar img {
+   width: 100%;   
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    overflow: hidden;
+  }
+
+  #logo {
+    height: 24px;
+    width: 78px;
+  }
+ 
+  .nav-sign-in i {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0;
+    padding-right: 5px;
+  }
+  .navbar li:nth-child(2){
+    padding-right: 0;
+  }
+  select {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .welcome {
+    padding-left: 10%;
+  }
+  .main-section {
+    display: block;
+    width: 450px;
+    overflow: hidden;
+    text-align: center;
+    background-position: center;
+  }
+  .main-section-second-section {
+    display: block;
+  }
+  .secondary-overlay {
+    display: none;
+  }
+  .sec1, .sec2, .sec3, .sec4 {
+    width: 300px;
+    overflow: hidden;
+  }
+ 
+  .news.title,
+  .sports.title {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #000;
+    margin-top: 10px;
+  }
+  #secondary, #tertiary {
+    margin-left: 40px;
+  
+  }
+  #secondary .area1.pic1,
+  .area2.pic2,
+  .area3.pic3 {
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    margin-right: 3px;
+  }
+  .area1.pic1 img {
+  width: 100%;
+  }
+  
+  #tertiary .area4.pic4,
+  .area5.pic5,
+  .area6.pic6 {
+    display: inline-block;
+    text-align: center;
+    width: 305px;
+    margin-right: 10px;
+    
+  }
+  .area6.pic6{
+    width: 340px;
+  }
+}
