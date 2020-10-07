@@ -137,9 +137,6 @@
   .navbar .nav-future, .navbar .nav-culture{
     display: none;
   }
-  .welcome {
-    /* margin-left: 20px; */
-  }
   .main-section {
     width: 100%;
     overflow: hidden;
