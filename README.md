@@ -62,4 +62,4 @@ I learned more about these types of selectors and when they are used. I Mostly u
 * [Biography.com](https://github.com/DashlinS/Biography)
 * [Nvidia Website](https://github.com/DashlinS/nvidia)
 * [JWLIA](https://github.com/DashlinS/JWLIA)
-* [Yelp](https://yellp.netlify.app/)
+* [Yelp](https://github.com/DashlinS/yelp)
